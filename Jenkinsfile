@@ -9,7 +9,7 @@ pipeline {
 
     stage('Test') {
       steps {
-        bat 'echo "Compiling"'
+        bat 'echo "Running Tests"'
       }
     }
 
